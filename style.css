@@ -1,0 +1,35 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: linear-gradient(to bottom, #1e1e1e, #2c2c2c);
+  color: white;
+  padding: 1em;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 2em;
+}
+
+.card {
+  width: 100%;
+  border: 2px solid #555;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card img {
+  width: 100%;
+}
